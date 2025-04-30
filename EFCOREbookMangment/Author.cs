@@ -1,5 +1,6 @@
 ﻿namespace EFCOREbookMangment;
 
+//simple model class for author
 public class Author
 {
     public int Id { get; set; }

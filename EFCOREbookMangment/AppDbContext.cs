@@ -1,8 +1,11 @@
-﻿namespace EFCOREbookMangment;
+﻿
+namespace EFCOREbookMangment;
 
 using Microsoft.EntityFrameworkCore;  // Essential for DbContext
 
-
+/// <summary>
+/// Database context. Using connection string, I had to include Trust SSL cert for some reason.
+/// </summary>
 public class AppDbContext : DbContext
 {
     

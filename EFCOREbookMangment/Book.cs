@@ -1,5 +1,6 @@
 ﻿namespace EFCOREbookMangment;
 
+//simple model class for books
 public class Book
 {
     public int Id { get; set; }
